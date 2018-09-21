@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "name": "it.giuseppePlacanica.cordova.volume",
+  "cordova_name": "Volume",
+  "description": "Apache Cordova Plugin to query the device volume",
+  "license": "MIT",
+  "repo": "https://github.com/GiuseppePlacanica/volume.git",
+  "keywords": [
+    "cordova"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ]
+}

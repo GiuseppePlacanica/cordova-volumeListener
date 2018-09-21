@@ -1,7 +1,7 @@
 Cordova Device Volume Listen Plugin
 ==================================
 
-##EN
+## -- EN --
 
 ## Usage
 
@@ -15,14 +15,14 @@ window.plugin.volume.getVolume(function(volume) {
 });
 ```
 
-On the native code there is a lister to listen to the events of the device volume changed.
+On the native code there is a listener to observe the events of the device volume changes.
 
 
 P.S. The code has been written to listen to Playback events, if you want to listen to different events you need to change
-he listener's pointers (at least on the iOS code)
+the listener's pointers (at least on the iOS code)
 
 
-##IT
+## -- IT --
 
 ## Come si usa
 
