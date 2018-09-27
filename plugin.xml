@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        id="it.giuseppePlacanica.cordova.volume"
+<plugin id="it.giuseppePlacanica.volumeListener"
         version="0.0.1">
 
   <name>Volume</name>
@@ -38,11 +36,11 @@
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Volume">
-        <param name="android-package" value="it.giuseppePlacanica.cordova.volume.Volume"/>
+        <param name="android-package" value="it.giuseppePlacanica.volumeListener.Volume"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/it/giuseppePlacanica/cordova/volume/Volume.java" target-dir="src/it/giuseppePlacanica/cordova/volume" />
+    <source-file src="src/android/it/giuseppePlacanica/volumeListener/Volume.java" target-dir="src/android/it/giuseppePlacanica/volumeListener" />
   </platform>
 
 </plugin>
